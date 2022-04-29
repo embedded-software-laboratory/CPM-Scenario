@@ -34,4 +34,4 @@ We acknowledge the financial support for this project by the Exploratory Teachin
 
 ## References
 * [1] A. Mokhtarian, S. Schäfer, B. Alrifaee. "CPM Olympics: Development of Scenarios for Benchmarking in
-Networked and Autonomous Driving". 2022
+Networked and Autonomous Driving". In 33rd IEEE Intelligent Vehicles Symposium (IV) 2022, accepted.
