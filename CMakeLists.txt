@@ -9,6 +9,10 @@ include(GNUInstallDirs)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED)
 
+# Make local cmake script available
+list(APPEND CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/cmake")
+message(STATUS "Loading cmake script from: ${CMAKE_CURRENT_SOURCE_DIR}/cmake")
+
 # Include Eigen as an imported target
 find_package(Eigen3 REQUIRED NO_MODULE)
 message(STATUS "Eigen3 Version: ${EIGEN3_VERSION_STRING}")
